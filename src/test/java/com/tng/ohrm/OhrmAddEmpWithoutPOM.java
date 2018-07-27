@@ -19,6 +19,7 @@ public class OhrmAddEmpWithoutPOM {
 
 	@BeforeClass
 	public void openApplication() {
+		System.out.println("this is first change");
 		driver = DriverFactory.getDriverFor("chrome");
 		// driver.manage().window().maximize();
 
